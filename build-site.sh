@@ -2,7 +2,7 @@
 
 set -e
 
-git clone --depth=50 --branch=$TRAVIS_BRANCH https://github.com/cagancayco/gancay.co.git
+git clone --depth=50 https://github.com/cagancayco/gancay.co.git
 cd gancay.co
 mkdir public
 
