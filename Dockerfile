@@ -6,7 +6,7 @@ ENV AWS_DEFAULT_REGION us-east-1
 
 
 # Install Git
-RUN apt-get update && apt-get install -y git && apt-get install -y python2-dev
+RUN apt-get update && apt-get install -y git && apt-get install -y python-dev && apt-get install -y unzip
 
 # Install Hugo
 ADD https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_extended_0.55.6_Linux-64bit.tar.gz hugo_extended_0.55.6.tar.gz
